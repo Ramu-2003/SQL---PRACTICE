@@ -2,13 +2,11 @@
 1️⃣ CREATE DATABASE
 CREATE DATABASE DBNAME;
 
-
 Explanation:
 Creates a new database with the given name.
 
 2️⃣ DROP DATABASE
 DROP DATABASE DBNAME;
-
 
 Explanation:
 Deletes (removes) the database permanently along with all its tables and data.
@@ -63,14 +61,8 @@ Displays all tables present in the currently selected database.
 8️⃣ SELECT STATEMENT
 SELECT * FROM TABLENAME;
 
-
-Corrected Explanation:
+Explanation:
 Selects and displays all records (rows) and all fields (columns) from a table.
-
-❌ Correction:
-
-SELECT * FROM DBNAME;   ❌ (Not correct)
-
 
 You must select from a table, not a database.
 
@@ -125,7 +117,8 @@ Example:
 
 FOREIGN KEY (student_id) REFERENCES students(id)
 
-1️⃣4️⃣ CREATE TABLE (Missing Part – Added ✅)
+1️⃣4️⃣ CREATE TABLE :
+
 CREATE TABLE TBNAME (
     id INT PRIMARY KEY,
     name VARCHAR(50),
@@ -155,8 +148,3 @@ Inserts data into the table in the same order as the fields.
 INSERT INTO TBNAME (id, name, age, email)
 VALUES (2, 'Kumar', 22, 'kumar@gmail.com');
 
-✅ Final Verdict
-
-✔️ Your understanding is good for a beginner
-✔️ Concepts are mostly correct
-✔️ Needed only syntax fixes, spelling corrections, and small clarifications
