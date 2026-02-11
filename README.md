@@ -14,7 +14,7 @@ Deletes (removes) the database permanently along with all its tables and data.
 ⚠️ Warning: This action cannot be undone.
 
 3️⃣ USE DATABASE
-USE DBNAME;
+USE DBNAME;    
 
 
 Explanation:
