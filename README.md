@@ -147,4 +147,3 @@ Inserts data into the table in the same order as the fields.
 
 INSERT INTO TBNAME (id, name, age, email)
 VALUES (2, 'Kumar', 22, 'kumar@gmail.com');
-
